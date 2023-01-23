@@ -11,7 +11,7 @@ class ArrGrap
     @arr = arr
     @str = str
   end
-  
+
   def result
     p @arr.grep(/#@str+/i).count 
   end

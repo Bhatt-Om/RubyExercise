@@ -7,5 +7,15 @@ array_of_multiples(17, 6) ➞ [17, 34, 51, 68, 85, 102]
 =end
 
 class ArrLength
-
+  def initialize(num , leng)
+    arr = (1..leng).collect {|x| x*num}
+    p arr
+  end
 end
+
+ex1 = ArrLength.new(17, 6)
+# def arr_lengrth(num , leng)
+#   arr = (1..leng).collect {|x| x*num}
+#   p arr 
+# end
+# arr_lengrth(17, 6)
